@@ -215,6 +215,7 @@ white-space: nowrap;
 
 .footer .links ul{
   list-style: none;
+  padding-left: 5px;
 }
 
 .footer .links li{
@@ -224,14 +225,15 @@ white-space: nowrap;
 .footer .links-container{
   display: grid;
   grid-template-columns: 3fr 1fr 2fr 3fr;
-
+  border-bottom: 1px solid rgba(0, 0, 0, 0.17);
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .footer .links h1{
   color: #000000;
   font-family: "Poppins-Bold", Helvetica;
   font-size: 24px;
   font-weight: 700;
-  margin-left: 100px;
 }
 
 .footer .links p{
@@ -243,5 +245,30 @@ white-space: nowrap;
   width: 285px;
   text-align: left;
   margin-top: 50px;
+}
+
+.footer .links form input[type="text"] {
+  border: none;
+  border-bottom: 2px solid #000; 
+  width: 200px; 
+  padding-bottom: 5px;
+}
+.footer .links form a{
+  border-bottom: 2px solid #000;
+  color: #000000;
+  font-family: "Poppins-Medium", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 7px;
+  width: 75px;
+  margin-left: 11px;
+}
+.footer .copyright {
+  color: #000000;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
   margin-left: 102.1px;
+  text-align: left;
+  margin-top: 35px;
 }

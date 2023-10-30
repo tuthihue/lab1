@@ -30,9 +30,7 @@
             </form>
         </div>
     </div>
-    <div class="copyright">
-        <p>2023 furino. All rights reverved</p>
-    </div>
+    <p class="copyright">2023 furino. All rights reverved</p>
 </div>
 
 </footer>
