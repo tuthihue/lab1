@@ -1,4 +1,4 @@
-<?php include("header.php")?>
+<?php include("header.php") ?>
 <!-- Main content: start -->
 <div class="banner">
     <img src="img/banner.jpg" alt="banner">
@@ -18,7 +18,8 @@
         </div>
         <div class="col-4">
             <img src="img/image3.png" alt="3">
-            <br><p>Bedroom</p>
+            <br>
+            <p>Bedroom</p>
         </div>
     </div>
 </div>
@@ -27,73 +28,107 @@
     <div class="row">
         <div class="col-3">
             <img src="img/Images (2).png " alt="1">
-            <div class="detail">
-                <h3>Syltherine</h3>
-                <p class="name">Stylish cafe chair</p>
-                <a class="price">Rp 2.500.000</a>
-                <a class="price_bef">Rp 3.500.000</a>
+            <div class="product-des">
+                <div class="product-name-box">
+                    <h3 class="product-title">Syltherine</h3>
+                    <h4 class="product-sub-title">Stylish cafe chair</h4>
+                </div>
+                <div class="product-price-box">
+                    <span class="price-sale">Rp 2.500.000</span>
+                    <span class="price-original">Rp 3.500.000</span>
+                </div>
             </div>
         </div>
         <div class="col-3">
             <img src="img/image 2.png" alt="2">
-            <div class="detail">
-                <h3>Leviosa</h3>
-                <p class="name">Stylish cafe chair</p>
-                <a class="price">Rp 2.500.000</a>
+            <div class="product-des">
+                <div class="product-name-box">
+                    <h3 class="product-title">Leviosa</h3>
+                    <h4 class="product-sub-title">Stylish cafe chair</h4>
+                </div>
+                <div class="product-price-box">
+                    <span class="price-sale">Rp 2.500.000</span>
+                </div>
             </div>
         </div>
         <div class="col-3">
             <img src="img/Images (1).png" alt="3">
-            <div class="detail">
-                <h3>Lolito</h3>
-                <p class="name">Luxury big sofa</p>
-                <a class="price">Rp 7.000.000</a><a class="price_bef">Rp 14.000.000</a>
+            <div class="product-des">
+                <div class="product-name-box">
+                    <h3 class="product-title">Lolito</h3>
+                    <h4 class="product-sub-title">Luxury big sofa</h4>
+                </div>
+                <div class="product-price-box">
+                    <span class="price-sale">Rp 7.000.000</span>
+                    <span class="price-original">Rp 14.000.000</span>
+                </div>
             </div>
         </div>
         <div class="col-3">
             <img src="img/image 4.png" alt="3">
-            <div class="detail">
-                <h3>Respira</h3>
-                <p class="name">Outdoor bar table and stool</p>
-                <a class="price">Rp 500.000</a>
+            <div class="product-des">
+                <div class="product-name-box">
+                    <h3 class="product-title">Respira</h3>
+                    <h4 class="product-sub-title">Outdoor bar table and stool</h4>
+                </div>
+                <div class="product-price-box">
+                    <span class="price-sale">Rp 500.000</span>
+                </div>
             </div>
-        </div>  
+        </div>
     </div>
     <div class="row">
         <div class="col-3">
             <img src="img/Images (2).png" alt="3">
-            <div class="detail">
-                <h3>Grifo</h3>
-                <p class="name">Night lamp</p>
-                <a class="price">Rp 1.500.000</a>
+            <div class="product-des">
+                <div class="product-name-box">
+                    <h3 class="product-title">Grifo</h3>
+                    <h4 class="product-sub-title">Night lamp</h4>
+                </div>
+                <div class="product-price-box">
+                    <span class="price-sale">Rp 1.500.000</span>
+                </div>
             </div>
         </div>
         <div class="col-3">
             <img src="img/Images (1).png" alt="3">
-            <div class="detail">
-                <h3>Muggo</h3>
-                <p class="name">Small mug</p>
-                <a class="price">Rp 150.000</a>
+            <div class="product-des">
+                <div class="product-name-box">
+                    <h3 class="product-title">Muggo</h3>
+                    <h4 class="product-sub-title">Small mug</h4>
+                </div>
+                <div class="product-price-box">
+                    <span class="price-sale">Rp 150.000</span>
+                </div>
             </div>
         </div>
         <div class="col-3">
             <img src="img/Images (3).png" alt="3">
-            <div class="detail">
-                <h3>Pingky</h3>
-                <p class="name">Cute bed set</p>
-                <a class="price">Rp 7.000.000</a><a class="price_bef">Rp 14.000.000</a>
-            </div>
-        </div> 
-        <div class="col-3">
-            <img src="img/Images (4).png" alt="2">
-            <div class="detail">
-                <h3>Potty</h3>
-                <p class="name">Minimalist flower pot</p>
-                <a class="price">Rp 500.000</a>
+            <div class="product-des">
+                <div class="product-name-box">
+                    <h3 class="product-title">Pingky</h3>
+                    <h4 class="product-sub-title">Cute bed set</h4>
+                </div>
+                <div class="product-price-box">
+                    <span class="price-sale">Rp 7.000.000</span>
+                    <span class="price-original">Rp 14.000.000</span>
+                </div>
             </div>
         </div>
-</div>
+        <div class="col-3">
+            <img src="img/Images (4).png" alt="2">
+            <div class="product-des">
+                <div class="product-name-box">
+                    <h3 class="product-title">Potty</h3>
+                    <h4 class="product-sub-title">Minimalist flower pot</h4>
+                </div>
+                <div class="product-price-box">
+                    <span class="price-sale">Rp 500.000</span>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <div class="btn_home"><a href="#">Show more</a></div>
 <!-- Main content: end -->
-<?php include("footer.php")?>
+<?php include("footer.php") ?>
