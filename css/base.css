@@ -1,0 +1,140 @@
+:root {
+  --Primary: #b88e2f;
+  --color-white: rgb(255, 255, 255);
+  --color-black: #000;
+  --text-color: #333;
+  --color-gray-1: #3a3a3a;
+  --color-gray-3: #898989;
+  --border-coler: #dbdbdb;
+  --start-gold-color: #ffce3e;
+  --main-width: 1440px;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  line-height: 1.6rem;
+  font-family: "Poppins-SemiBold", Helvetica;
+  box-sizing: border-box;
+}
+
+/**========================================== Keyframes ======================================*/
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes growth {
+  from {
+    transform: scale(var(--growth-form));
+  }
+  to {
+    transform: scale(var(--growth-to));
+  }
+}
+
+/**========================================== Button style ======================================*/
+
+.btn {
+  min-width: 202px;
+  height: 48px;
+  text-decoration: none;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: var(--text-color);
+  padding: 0 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.6rem;
+}
+
+/*Nút nhỏ*/
+.btn.btn--size-s {
+  height: 32px; 
+  padding: 0 8px;
+  font-size: 12px;
+}
+
+.btn.btn--normal:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/*Màu Nút chính*/
+.btn.btn--primary {
+  color: var(--white-color);
+  background-color: var(--primary-color);
+}
+
+/*Nút bị disabled*/
+.btn.btn--disabled {
+  color: #949494;
+  cursor: default; 
+  background-color: #c3c3c3;
+}
+
+/**========================================== Pagination style ======================================*/
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.shop-product__pagination {
+  padding-top: 70px;
+  display: flex;
+  gap: 38px;
+  align-self: center;
+}
+
+.pagination-item {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  background: #f9f1e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.pagination-item-next {
+  width: 98px;
+  height: 60px;
+  color: #000;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.pagination-item--active {
+  background: var(--Primary, #b88e2f);
+  color: #fff;
+}
+.pagination-item--active .pagination-item__link {
+  color: #fff;
+}
+
+.pagination-item__link {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
