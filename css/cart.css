@@ -1,0 +1,153 @@
+.rec {
+background: #FFF;
+width:100%;
+height:auto;
+display:flex;
+}
+.group142 {
+    width: 1240px;
+    height: 390px;
+    position: absolute;
+    left: 100px;
+    bottom: 63px;
+}
+.group144 {
+    width: 817px;
+    height: 215px;
+    flex-shrink: 0;
+}
+.group143 {
+    width: 573px;
+    height: 25px;
+    flex-shrink: 0;
+}
+.text143 {
+    color: #9F9F9F;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.group141 {
+    width: 817px;
+    height: 215px;
+    flex-shrink: 0;
+}
+.block {
+    width: 817px;
+height: 55px;
+flex-shrink: 0;
+background: #F9F1E7;
+}
+.group140 {
+    width: 792px;
+height: 200px;
+flex-shrink: 0;
+}
+.text140 {
+    color: #000;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.group106 {
+    width: 108px;
+height: 105px;
+flex-shrink: 0;
+}
+.rec106 {
+    width: 105px;
+height: 105px;
+flex-shrink: 0;
+border-radius: 10px;
+background: rgba(184, 142, 47, 0.22);
+}
+.maskgroup {
+    width: 105px;
+height: 105px;
+flex-shrink: 0;
+}
+.recmask {
+    width: 105px;
+height: 105px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #D9D9D9;
+}
+.imgmask {
+    width: 111px;
+height: 90px;
+flex-shrink: 0;
+background: url(img/Asgaard sofa 3.png), lightgray 50% / cover no-repeat;
+}
+.group138 {
+    width: 32px;
+height: 32px;
+flex-shrink: 0;
+}
+.rec138 {
+    width: 32px;
+height: 32px;
+flex-shrink: 0;
+border-radius: 5px;
+border: 1px solid #9F9F9F;
+}
+.text138 {
+    color: #000;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.trash{
+    width: 28px;
+height: 28px;
+flex-shrink: 0;
+}
+.one{
+    width:50%;
+    height:auto;
+}
+.two{
+    background: #F9F1E7;
+    width:50%;
+    height:auto;
+}
+.cart-total-text{
+    color: #000;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.subtotal{
+    background: #F9F1E7;
+}
+.subtotal-text{
+    color: var(--Primary, #B88E2F);
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.checkout-button{
+    width: 222px;
+height: 58.954px;
+flex-shrink: 0;
+border-radius: 15px;
+border: 1px solid #000;
+}
+.checkout-text{
+    color: #000;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
