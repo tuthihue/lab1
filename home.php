@@ -6,7 +6,7 @@
 
 <div class="category_title">Browse The Range</div>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-<div class="categroy_picture">
+<div class="category_picture">
     <div class="row">
         <div class="col-4">
             <img src="img/image1.png" alt="1"><br>
