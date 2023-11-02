@@ -167,6 +167,7 @@
 }
 .product-item {
   position: relative;
+  width: 285px;
 }
 
 .product-item .product-item-popup {
